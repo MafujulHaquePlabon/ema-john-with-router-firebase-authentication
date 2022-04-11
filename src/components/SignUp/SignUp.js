@@ -57,7 +57,8 @@ const SignUp = () => {
          <p style={{color:'red'}}>
              {error}
          </p>
-         <button className='form-submit' type="Sign Up">Sign Up</button>
+        
+        <button className='form-submit' type="submit">Submit</button>
          </form>
          <p className='createAccountLinkParent'>
              Already Have An Account?<Link className='form-link' to="/Login">Login</Link>
